@@ -1,2 +1,17 @@
 The is the document for making notes on web development.
 
+some web sites where the web development related question are asked
+1) jsfiddle.net 
+2) stack voerflow
+3) CodePen.io
+
+
+html:
+ 
+hypertext:- hypertext is text which contains links to other texts and that's basically the entire web, right? One document points to another document which points to a bunch of other documents and it grows on and on and on. Sometimes they link back to the original document and it becomes one gigantic web and obviously it's not just about text nowadays, hypermedia is plays a huge role in the web today.
+
+The next term is Markup. So markup means to mark something up, to annotate. So for example, it's really all about content. On the Web it's all about content. So if you have some content for example if you have a document you're writing called, Why I Love This Course, which is I'm sure is going to be the title of your next blog post.
+Play video starting at :1:40 and follow transcript1:40
+That's the content and you want to annotate the content to tell the browser, or to tell some other machine out there, some other program out there, what this content is and that's what HTML does.
+
+The last word in hypertext markup language is language and language basically implies that it has its own syntax meaning there's a right and a wrong way to code it.
