@@ -2,8 +2,9 @@ The is the document for making notes on web development.
 
 some web sites where the web development related question are asked
 1) jsfiddle.net 
-2) stack voerflow
+2) stackoverflow
 3) CodePen.io
+4) devdocs.io
 
 
 html:
@@ -15,3 +16,6 @@ Play video starting at :1:40 and follow transcript1:40
 That's the content and you want to annotate the content to tell the browser, or to tell some other machine out there, some other program out there, what this content is and that's what HTML does.
 
 The last word in hypertext markup language is language and language basically implies that it has its own syntax meaning there's a right and a wrong way to code it.
+
+To see the websites in the time of they were launch go to the 
+1) web.archive.org 
