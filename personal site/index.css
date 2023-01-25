@@ -1,0 +1,13 @@
+.first{
+   border-spacing: 0px;
+   border-style: groove;
+}
+
+.first td{
+    padding: 9px;
+    border: 1px solid;
+}
+
+th {
+    border: 1px solid;
+}
