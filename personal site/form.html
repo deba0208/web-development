@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="" method="get" id="form">
+        <div>
+            <label for="name">Enter Your Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Enter Your email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Do you agree to the terms?</legend>
+                <label for=""><input type="radio" name="radio" value="yes">Yes</label>
+                <label for=""><input type="radio" name="radio" value="No">No</label>
+            </fieldset>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+</body>
+</html>
