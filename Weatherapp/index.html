@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather Forecsating</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="glassCard card">
+      <div class="search">
+        <input type="text" placeholder="Enter city name" />
+        <button>
+          <img src="./images/search.png" alt="search.png" />
+        </button>
+      </div>
+      <div class="weather">
+        <img src="" alt="" class="weather-icon" />
+        <p class="description"></p>
+        <h1 id="temp">22°C</h1>
+        <h2 id="city">Kolkata</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./assets/icons/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./assets/icons/windy.png" alt="" />
+            <div>
+              <p class="windspeed">15 hm/h</p>
+              <p>wind speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js">
+        const apikey = "2fa73590fd8b5a4c6e68098ad5625395";
+      const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric";
+    </script>
+  </body>
+</html>
